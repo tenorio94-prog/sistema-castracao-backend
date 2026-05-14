@@ -205,7 +205,7 @@ export class CreateClinicalRecordDto {
   locomotorSystem?: string;
 
   // === DIAGNOSIS AND PROGNOSIS ===
-  @ApiProperty({ description: 'Provisional diagnosis', required: false })
+  @ApiProperty({ description: 'Clinical suspicion (Suspeita Clínica)', required: false })
   @IsOptional()
   @IsString()
   provisionalDiagnosis?: string;

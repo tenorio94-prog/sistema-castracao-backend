@@ -82,7 +82,7 @@ export function ApiCreateClinicalRecord() {
           thoracicCavity: { type: 'string', example: 'Auscultação cardíaca e pulmonar normal', description: 'Cavidade torácica' },
           locomotorSystem: { type: 'string', example: 'Sem claudicação', description: 'Sistema locomotor' },
           // Diagnosis and prognosis
-          provisionalDiagnosis: { type: 'string', example: 'Animal saudável', description: 'Diagnóstico Provável' },
+          provisionalDiagnosis: { type: 'string', example: 'Animal saudável', description: 'Suspeita Clínica' },
           complementaryExams: { type: 'string', example: 'Hemograma completo', description: 'Exames Complementares' },
           definitiveDiagnosis: { type: 'string', example: 'Animal apto para cirurgia', description: 'Diagnóstico Definitivo' },
           prognosis: { type: 'string', example: 'Excelente', description: 'Prognóstico' },

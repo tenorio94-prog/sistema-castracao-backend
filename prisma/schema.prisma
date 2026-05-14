@@ -326,7 +326,7 @@
     locomotorSystem String?             // Bones and joints
     
     // === DIAGNOSIS AND PROGNOSIS ===
-    provisionalDiagnosis    String?     // Provisional diagnosis
+    provisionalDiagnosis    String?     // Clinical suspicion (Suspeita Clínica)
     complementaryExams      String?     // Complementary exams
     definitiveDiagnosis     String?     // Definitive diagnosis
     prognosis              String?     // Prognosis
